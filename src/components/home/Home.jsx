@@ -18,6 +18,7 @@ export function Home () {
     },[]);
 
     const movies = nowPlaying.slice(0, 5).map((item, index) =>{
+        //Muestrame un carrousel con las películas con botones en los costados aparecerán con el hover
         return(
             <div style= {{width: "500"}} key= {index}>
                 <div className= "carousel-center">
