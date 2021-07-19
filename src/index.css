@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list-inline-item .btn-outline-info{
+  color: #5a606b;
+  border: 1px solid #5a606b;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  font-weight: 500;
+}
+
+.list-inline-item .btn-outline-info:hover{
+  color:#0F9EE8;
+  border-color: #0F9EE8;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Opción de cambio de color del título de la película del baner */
+/* .carousel-caption{
+  color:#71a9f8 !important;
+  font-weight: 20px;
+} */
+
+.fa-arrow-alt-circle-right{
+  color:#f4c10f;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.fa-arrow-alt-circle-right:hover{
+  color:#0F9EE8;
+  transition: all 0.3s ease-in-out;
+}
