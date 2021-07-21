@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";
 import React, { useEffect, useState } from 'react';
@@ -39,12 +39,12 @@ export function Home () {
         return(
             <div style= {{ height: 500, width: "100%" }} key= {index}>
                 <div className= "carousel-center">
-                    <img style= {{height: 500, width: 1000 }} src= {item.backPoster} alt= {item.title} />
+                    <img style= {{height: 500, width: 700 }} src= {item.backPoster} alt= {item.title} />
 
                 </div>
-                <div className= "carousel-center">
+                {/* <div className= "carousel-center">
                     <i className= "far fa-play-circle" style={{fontSize: 95, color: "#0f9ee8"}} ></i>
-                </div>
+                </div> */}
                 <div className= "carousel-caption"
                      style={{textAlign: "center", fontSize: 35}} 
                      >
@@ -63,8 +63,7 @@ export function Home () {
                     className= "btn btn-outline-info" 
                     onClick={() => {
                       handleGenreClick(item.id);
-                    }}
-                    >
+                    }}>
                     {item.name}
 
                 </button>
@@ -142,7 +141,6 @@ export function Home () {
             <div className= "row mt-2">
                 <div className= "col">
                     <Carousel 
-                    
                         autoplay={true}
                         pauseOnVisibility={true}
                         slidesshowSpeed={5000}
@@ -152,7 +150,6 @@ export function Home () {
 
                     >
                         {movies}
-
                     </Carousel>
 
                 </div>
