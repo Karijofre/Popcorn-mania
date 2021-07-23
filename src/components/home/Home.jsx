@@ -10,6 +10,7 @@ import ReactStars from "react-rating-stars-component";
 
 
 
+
 export function Home () {
 
     const [nowPlaying, setNowPlaying] = useState([]);
@@ -34,22 +35,23 @@ export function Home () {
         setMovieByGenre(await fetchMovieByGenre(genre_id));
     };
 
-    const movies = nowPlaying.slice(0, 5).map((item, index) =>{
-        //Muestra el carrousel con sus botones a sus costados al hover
+    const movies = nowPlaying.slice(0, 10).map((item, index) =>{
+        //Muestra el carrousel con sus botones a sus costados 
         return(
             <div style= {{ height: 500, width: "100%" }} key= {index}>
                 <div className= "carousel-center">
-                    <img style= {{height: 500, width: 700 }} src= {item.backPoster} alt= {item.title} />
+                    <img style= {{height: 500, width: 900 }} src= {item.backPoster} alt= {item.title} />
 
                 </div>
-                {/* <div className= "carousel-center">
-                    <i className= "far fa-play-circle" style={{fontSize: 95, color: "#0f9ee8"}} ></i>
-                </div> */}
+                 <div className= "carousel-center">
+                    {/* <i className= "far fa-play-circle" style={{fontSize: 95, color: "#0f9ee8"}} ></i> */}
+                </div> 
                 <div className= "carousel-caption"
                      style={{textAlign: "center", fontSize: 35}} 
                      >
                         {item.title}
                     </div>
+                    
             </div>
         );
     });
@@ -141,13 +143,11 @@ export function Home () {
             <div className= "row mt-2">
                 <div className= "col">
                     <Carousel 
-                        autoplay={true}
+                        autoPlay={true}
                         pauseOnVisibility={true}
                         slidesshowSpeed={5000}
                         version={4}
                         indicators ={false}
-                        //showThumbs={false}
-
                     >
                         {movies}
                     </Carousel>
