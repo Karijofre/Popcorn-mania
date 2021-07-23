@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Popcorn-mania/static/css/main.832b641e.chunk.css",
+    "main.js": "/Popcorn-mania/static/js/main.a4b07157.chunk.js",
+    "main.js.map": "/Popcorn-mania/static/js/main.a4b07157.chunk.js.map",
+    "runtime-main.js": "/Popcorn-mania/static/js/runtime-main.83b18ed2.js",
+    "runtime-main.js.map": "/Popcorn-mania/static/js/runtime-main.83b18ed2.js.map",
+    "static/css/2.bb20de5c.chunk.css": "/Popcorn-mania/static/css/2.bb20de5c.chunk.css",
+    "static/js/2.d690726a.chunk.js": "/Popcorn-mania/static/js/2.d690726a.chunk.js",
+    "static/js/2.d690726a.chunk.js.map": "/Popcorn-mania/static/js/2.d690726a.chunk.js.map",
+    "index.html": "/Popcorn-mania/index.html",
+    "static/css/2.bb20de5c.chunk.css.map": "/Popcorn-mania/static/css/2.bb20de5c.chunk.css.map",
+    "static/css/main.832b641e.chunk.css.map": "/Popcorn-mania/static/css/main.832b641e.chunk.css.map",
+    "static/js/2.d690726a.chunk.js.LICENSE.txt": "/Popcorn-mania/static/js/2.d690726a.chunk.js.LICENSE.txt",
+    "static/media/react-bootstrap-carousel.css": "/Popcorn-mania/static/media/react-bootstrap-carousel.f4133112.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83b18ed2.js",
+    "static/css/2.bb20de5c.chunk.css",
+    "static/js/2.d690726a.chunk.js",
+    "static/css/main.832b641e.chunk.css",
+    "static/js/main.a4b07157.chunk.js"
+  ]
+}
