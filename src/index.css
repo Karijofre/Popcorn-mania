@@ -35,7 +35,7 @@ code {
 
 .fa-arrow-alt-circle-right{
   color:#f4c10f;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
   cursor: pointer;
 }
@@ -44,3 +44,12 @@ code {
   color:#0F9EE8;
   transition: all 0.3s ease-in-out;
 }
+
+.carousel-caption{
+  position: relative !important;
+  display: flex;
+  justify-content: start;
+}
+
+
+
