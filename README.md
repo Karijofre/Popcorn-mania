@@ -25,6 +25,6 @@ I'm a trainee Developer. I have a long way to go in order to improve the quality
 
 🖱 [Click to see](https://amazing-shirley-75d411.netlify.app/)
 
-## Karina Jofre 🔹
+## Karina Jofre 
 
 
