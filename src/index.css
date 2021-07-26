@@ -51,5 +51,11 @@ code {
   justify-content: start;
 }
 
+@media  (max-width: 320px){
+  .carousel .slide img{
+    max-width: 17.5rem;
+    height: 20px;
+  }
+}
 
 
